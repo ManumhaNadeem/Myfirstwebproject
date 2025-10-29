@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Victoria's Journal</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: lightgrey;
+      font-family: Arial, sans-serif;
+      color: black;
+      padding: 20px;
+    }
+
+
+    #page {
+      width: 900px;
+      margin: 0 auto;
+      background: white;
+      border: 10px solid lightgrey;
+      padding: 20px;
+    }
+
+ 
+    #header {
+      background: paleturquoise;
+      border: 2px solid lightcyan;
+      padding: 20px;
+      overflow: auto;
+      margin-bottom: 15px;
+    }
+
+    #title {
+      float: right;
+      text-align: right;
+      color: teal;
+    }
+
+    #title h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    #title p {
+      font-style: italic;
+      color: darkcyan;
+      font-weight: normal;
+    }
+
+   
+    #content {
+      overflow: auto;
+    }
+
+    #sidebar {
+      width: 200px;
+      float: left;
+      background: lightseagreen;
+      border: 2px solid teal;
+      padding: 10px;
+      margin-right: 15px;
+      color: white;
+    }
+
+    #sidebar h3 {
+      text-align: center;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    #sidebar ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    #sidebar li {
+      margin-bottom: 5px;
+      color: teal;
+    }
+
+    #sidebar a {
+      color: orange;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #sidebar a:hover {
+      text-decoration: underline;
+    }
+
+
+    #posts {
+      overflow: auto;
+    }
+
+    .post {
+      background: aliceblue;
+      border: 2px solid paleturquoise;
+      padding: 10px;
+      margin-bottom: 15px;
+      overflow: auto;
+    }
+
+    .post h2 {
+      color: teal;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .post p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .post img {
+      float: right;
+      width: 100px;
+      height: auto;
+      margin-left: 10px;
+      border: 2px solid lightgray;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page">
+
+    <div id="header">
+      <div id="title">
+        <h1>Victoria's Journal</h1>
+        <p>So fresh and so clean</p>
+      </div>
+    </div>
+
+    <div id="content">
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <h3>Friends</h3>
+        <ul>
+          <li><a href="#">390 Buddies</a></li>
+          <li><a href="#">Big Will</a></li>
+          <li><a href="#">Conan the Librarian</a></li>
+        </ul>
+      </div>
+
+      <!-- Posts -->
+      <div id="posts">
+        <div class="post">
+          <h2>04/09/08: Spatulas</h2>
+          <img src="spatula.jpg" alt="spatula">
+          <p>
+            Yesterday, I went to the store and got some much-needed spatulas. (What better way to say
+            I love myself than to buy myself a spatula?)
+          </p>
+        </div>
+
+        <div class="post">
+          <h2>04/08/08: Cookie Cupcakes</h2>
+          <img src="cookiecupcakejpg.jpg" alt="cupcakes">
+          <p>
+            My favorite cartoon character is Cookie, and my favorite dessert is cupcakes.
+            So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said,
+            "Sometimes me think what is love, and then me think love is what cookie is for."
+            Me give up the last cookie for you. *I wonder if the same applies for the cupcakes?*
+            (If so, I don’t think I can ever love ANYONE!)
+          </p>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+  </div>
+</body>
+</html>
